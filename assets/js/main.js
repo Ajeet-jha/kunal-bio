@@ -194,7 +194,7 @@
 
 window.addEventListener('DOMContentLoaded', () => {
   let age = 0;
-  const currentAge = parseInt((new Date() - new Date("09/14/1989"))/ (1000 * 60 * 60 * 24*365));
+  const currentAge = parseInt((new Date() - new Date("11/01/1990"))/ (1000 * 60 * 60 * 24*365));
   const ageDiv =  document.getElementById("age");
   const interval = setInterval(() => {
     if(age === currentAge){
